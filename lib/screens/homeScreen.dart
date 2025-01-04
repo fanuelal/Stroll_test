@@ -76,14 +76,15 @@ class BonfireScreen extends StatelessWidget {
                     end: Alignment.bottomCenter,
                     colors: [
                       const Color(0xFF0F1115).withOpacity(0.0), // 0%
-                      const Color(0xFF0D0E12).withOpacity(0.78), // 28%
-                      const Color(0xFF0D0E12).withOpacity(0.78), // 28%
+                      const Color(0xFF0F1115).withOpacity(0.88), // 0%
+                      const Color(0xFF0F1115).withOpacity(0.88), // 0%
+                      const Color(0xFF0D0E12).withOpacity(0.88), // 28%
+                      const Color(0xFF0D0E12).withOpacity(0.88), // 28%
                       const Color(0xFF0B0C0F).withOpacity(0.80), // 64%
                       const Color(0xFF090B0D).withOpacity(0.80), // 80%
                       const Color(0xFF000000).withOpacity(1), // 100%
                     ],
                   ),
-                  borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
                 ),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
